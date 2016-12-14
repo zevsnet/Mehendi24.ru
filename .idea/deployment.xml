@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="Always" serverName="Mehendi 85.143.209.239 bitrix" uploadOnCheckin="ae1b3b8f-7f90-44ec-907b-8b22f324643d">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Mehendi 85.143.209.239 bitrix">
     <serverData>
       <paths name="Mehendi 85.143.209.239 bitrix">
         <serverdata>
@@ -86,7 +86,6 @@
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="Mehendi 85.143.209.239 bitrix" />
     <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>
