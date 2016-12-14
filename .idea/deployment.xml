@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="Mehendi 85.143.209.239 bitrix" uploadOnCheckin="ae1b3b8f-7f90-44ec-907b-8b22f324643d">
+    <serverData>
+      <paths name="Mehendi 85.143.209.239 bitrix">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/bitrix/ext_www/mehendi24.ru" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/upload" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/ys-ym" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/stack_cache" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/sounds" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/fonts" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/images" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/otp" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/image_uploader" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/css" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/tools" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/template" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/cache" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/crontab" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/updates" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/js" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/gadgets" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/activities" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/catalog_export" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/admin" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/managed_cache" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/themes" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/modules" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/wizards" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/services" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/panel" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/log" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/backup" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/tmp" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/sotbit" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/aspro" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/bitrix" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/kuznica" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/sebekon" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/web360" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/yenisite" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/components/coffeediz" />
+            <excludedPath path="/home/bitrix/ext_www/mehendi24.ru/bitrix/templates" />
+            <excludedPath local="true" path="$PROJECT_DIR$/upload" />
+            <excludedPath local="true" path="$PROJECT_DIR$/ys-ym" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/stack_cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/sounds" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/fonts" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/images" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/otp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/image_uploader" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/css" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/tools" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/template" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/crontab" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/updates" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/js" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/gadgets" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/activities" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/catalog_export" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/admin" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/managed_cache" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/themes" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/modules" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/wizards" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/services" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/panel" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/log" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/backup" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/tmp" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/sotbit" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/aspro" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/bitrix" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/kuznica" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/sebekon" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/web360" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/yenisite" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/components/coffeediz" />
+            <excludedPath local="true" path="$PROJECT_DIR$/bitrix/templates" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myUploadOnCheckinName" value="Mehendi 85.143.209.239 bitrix" />
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>
