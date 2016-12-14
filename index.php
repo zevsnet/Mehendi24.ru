@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("keywords", "купить гель лак в кр�
 $APPLICATION->SetPageProperty("title", "Интернет-магазин мастеров красоты");
 $APPLICATION->SetTitle("Интернет-магазин мастеров красоты");
 ?>
-<?//t///est?>
+<?_::d('TEST');?>
 <? global $SITE_THEME, $TEMPLATE_OPTIONS; ?>
     <div class="wrapper_inner">
         <? $APPLICATION->IncludeComponent("bitrix:news.list", "mshop", array(
