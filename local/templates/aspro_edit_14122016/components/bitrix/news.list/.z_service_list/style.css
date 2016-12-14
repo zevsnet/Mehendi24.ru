@@ -1,0 +1,43 @@
+.z_table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.z_table > thead > tr > th, .z_table > tbody > tr > th, .z_table > tfoot > tr > th, .z_table > thead > tr > td, .z_table > tbody > tr > td, .z_table > tfoot > tr > td {
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+    text-align: center;
+
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+}
+.z_table td:hover{
+    background: #fff;
+    color:#000;
+    cursor: pointer;
+}
+.z_table .activity:hover{
+    background: #4977ff!important;
+    color:#fff !important;
+}
+.z_table td:focus,
+.z_table td:active
+{
+    background: #4977ff;
+    color:#fff;
+}
+.z_table tr:hover{
+    background: #2bcdc1;
+    color:#fff;
+    cursor: default;
+}
+.z_table .activity{
+    background: #4977ff;
+    color:#fff;
+}

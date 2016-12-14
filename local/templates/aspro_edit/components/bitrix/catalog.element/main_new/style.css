@@ -1,0 +1,46 @@
+.item_detail_scu_list ul.sb_sku_container li::before, .select2-results ul li::before{ display: none; }
+
+.select2-results{ padding: 8px; }
+.select2-results ul li{ background-color: transparent !important; float: left; padding: 0; width: 33.3%; }
+.select2-results ul li img{ box-sizing: border-box; float: left; padding: 4px; width: 100%; }
+li.select2-results__option { position: relative; }
+li.select2-results__option span{ bottom: 7px; color: white; padding: 0 3px; position: absolute; right: 7px; }
+
+.select2-container--default .select2-results > .select2-results__options{ max-height: 220px; }
+.scrollbar-outer > .scroll-element .scroll-element_outer, .scrollbar-outer > .scroll-element .scroll-element_track, .scrollbar-outer > .scroll-element .scroll-bar { border-radius: 2px; }
+.scrollbar-outer > .scroll-element .scroll-bar { background-color: #4f4f4f; }
+.select2-dropdown{ border-color: #e5e5e5 !important; border-radius: 0 !important; box-shadow: 0 9px 8px 5px rgba(50, 50, 50, 0.12); }
+
+.sb-select-container{ padding-bottom: 15px; }
+.sb-select-container .select2-container--default .select2-selection--single{ border: 1px solid #e5e5e5; border-radius: 2px; height: 35px; }
+.sb-select-container .select2-container--default .select2-selection--single .select2-selection__rendered{ font-weight: bold; line-height: 32px; }
+.sb-select-container .select2-container--default .select2-selection--single .select2-selection__arrow{ border-left: 1px solid #e5e5e5; height: 33px; }
+
+.select2-results__option.resize{ padding: 0; position: absolute; width: 120px; z-index: 10000; }
+.select2-results__option.resize img{border-style: solid;border-width: 2px;box-sizing: border-box;float: left;height: 120px;width: 100%;}
+
+.display_list .list_item{ table-layout: fixed; }
+
+.scroll-wrapper > .scroll-element > .scroll-element_outer{ bottom: 4px; height: auto; top: 4px; }
+
+a.scroll-to-top.ROUND_COLOR,
+a.scroll-to-top.RECT_COLOR {
+    background-color: #005fb1;
+}
+a.scroll-to-top.ROUND_COLOR:hover,
+a.scroll-to-top.RECT_COLOR:hover {
+    background-color: #005fb1;
+}
+ul li::before {
+    color: #005fb1;
+}
+.basket_print i,
+.sb_background_color {
+    background-color: #005fb1;
+}
+.sb_border_color{
+    border-color: #005fb1
+}
+.sb-pseudo-color::before, .sb-pseudo::after {
+    color: #005fb1;
+}

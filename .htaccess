@@ -1,0 +1,85 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+<IfModule mod_php7.c>
+  php_flag session.use_trans_sid off
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    Options +FollowSymLinks
+    RewriteEngine On
+
+		#RewriteMap access txt:/home/bitrix/www/upload/blacklist.txt
+
+	
+    RewriteCond %{HTTPS} off
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1/ [R=301,L]
+
+    RewriteCond %{HTTPS} on
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ https://%1/$1/ [R=301,L]
+
+    RewriteCond %{HTTP_HOST} ^bbcream2.ru(.*)$ [NC]
+    RewriteRule ^(.*)$ https://mehendi24.ru/$1 [L,R=301]
+
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-l
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+	RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+	RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+
+	Redirect 301 /services/ /service/
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+  ExpiresByType image/png "access plus 3 day"
+  ExpiresByType text/css "access plus 3 day"
+  ExpiresByType application/javascript "access plus 3 day"  
+</IfModule>
+
+Deny from 5.255.253.41
+Deny from 5.255.253.38
+Deny from 5.255.253.50
+Deny from 37.229.201.186
+Deny from 66.249.76.24
+Deny from 66.249.64.40
+Deny from 62.138.8.15
+Deny from 93.158.152.22
+Deny from 94.69.201.172
+Deny from 94.177.226.168
+Deny from 95.133.253.152
+Deny from 113.160.154.138
+Deny from 141.8.132.77
+Deny from 141.8.132.42
+Deny from 141.8.142.23
+Deny from 145.249.133.217
+Deny from 176.192.219.168
+Deny from 178.154.189.27
+Deny from 181.143.8.34
+Deny from 184.154.28.202
+Deny from 185.43.209.164
+Deny from 185.159.37.8
+Deny from 185.129.148.190
+Deny from 185.159.37.9
+Deny from 185.159.37.7
+Deny from 190.7.136.147
+Deny from 209.126.106.49
+#Deny from 94.73.230.225 - Это рабочий IP
+
+Deny from 141.8.142.21
+Deny from 130.193.51.64
+Deny from 188.213.168.205
+Deny from 81.82.251.77
+Deny from 5.255.253.21
+Deny from 66.249.76.126
+Deny from 141.8.142.29
+Deny from 93.158.152.30

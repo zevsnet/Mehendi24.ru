@@ -1,0 +1,27 @@
+// Для использования требуется обязательно подключить PHPExcel
+include_once(\SB\ROOT . '/vendors/PHPExcel/PHPExcel.php');
+
+// Создаем Объект ExcelReader
+$ExcelReader = new \SB\ExcelReader(\SB\ROOT . '/upload/diski.xlsx');
+
+// Обязательная функция. Задает диапазона колонок
+$ExcelReader->setRangeColumns('A','H');
+
+// Строка с которой начинать
+$ExcelReader->setStartRow(3);
+
+// Устанавливаем сколько читать строк за раз
+$ExcelReader->setPartSize(200);
+
+// Читает по 200 строк.  Можно делать дейсвия для каждой частью, либо прочитать все и обработать весь массив
+while(!$ExcelReader->readPartOfFile())
+{
+    // Действия над $ExcelReader->getRows()
+    // .....
+}
+
+// Действия над $ExcelReader->getRows()
+// .....
+
+// Прочитанные строки
+$arRows = $ExcelReader->getRows();

@@ -1,0 +1,1 @@
+<a rel="nofollow" href="mailto:sale@mehendi24.ru">sale@mehendi24.ru</a>

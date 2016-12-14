@@ -1,0 +1,32 @@
+.logo img{width:300px;}
+#step_2 *,
+#step_3 *,
+#step_4 *,
+#step_5 *,
+#step_6 *,
+#step_7 *,
+#step_8 *
+{
+    font-size: 14px;
+}
+.z_bt_service_add{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #2bcdc1;
+    color: #fff;
+    cursor: pointer;
+
+    -webkit-transition: all 600ms ease-in-out;
+    -moz-transition: all 600ms ease-in-out;
+    -ms-transition: all 600ms ease-in-out;
+    -o-transition: all 600ms ease-in-out;
+    transition: all 600ms ease-in-out;
+}
+.z_bt_service_add:hover{
+    background-color: #29b0a4;
+}

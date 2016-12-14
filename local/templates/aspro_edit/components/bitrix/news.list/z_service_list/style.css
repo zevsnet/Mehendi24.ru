@@ -1,0 +1,123 @@
+div.news-list img.preview-picture
+{
+	float:left;
+	margin:0 4px 6px 0;
+}
+
+p.news-item
+{
+	margin:0;
+	margin-bottom:15px;
+}
+
+.news-date-time
+{
+	font-size:95%;
+	display:block;
+	color:#82929a;
+}
+
+.preview-picture {
+
+	border: 1px solid #E4E7E9;
+}
+.table{
+	font-size: 1.4rem;
+	font-family: 'Open Sans';
+}
+.table.table-condensed tbody tr{
+	cursor: pointer;
+
+
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}
+.table.table-condensed tbody tr:hover{
+	background-color: #2bcdc1;
+	color: #fff;
+}
+.z_bt_service{
+	width: 100%;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bold;
+	background-color: #2bcdc1;
+	color: #fff;
+	cursor: pointer;
+
+	-webkit-transition: all 600ms ease-in-out;
+	-moz-transition: all 600ms ease-in-out;
+	-ms-transition: all 600ms ease-in-out;
+	-o-transition: all 600ms ease-in-out;
+	transition: all 600ms ease-in-out;
+}
+/*a:hover{
+	color: #fff !important;
+	text-decoration: none !important;
+}*/
+.z_bt_service:hover{
+	 background-color: #29b0a4;
+}
+
+
+/* Это для всех браузеров, кроме совсем старых, которые не поддерживают
+селекторы с плюсом. Показываем, что label кликабелен. */
+.checkbox + label {
+	cursor: pointer;
+}
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+	position: absolute;
+	opacity: 0;
+}
+.checkbox:not(checked) + label {
+	position: relative; /* будем позиционировать псевдочекбокс относительно label */
+	padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+	content: '';
+	position: absolute;
+	top: -4px;
+	left: 0;
+	width: 50px;
+	height: 26px;
+	border-radius: 13px;
+	background: #CDD1DA;
+	box-shadow: inset 0 2px 3px rgba(0,0,0,.2);
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+	content: '';
+	position: absolute;
+	top: -2px;
+	left: 2px;
+	width: 22px;
+	height: 22px;
+	border-radius: 10px;
+	background: #FFF;
+	box-shadow: 0 2px 5px rgba(0,0,0,.3);
+	transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+	background: #4977ff;
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+	left: 26px;
+}
+/* Показываем получение фокуса. */
+.checkbox:focus + label:before {
+	box-shadow: 0 0 0 3px rgba(255,255,0,.5);
+}
+.service_list td{line-height: 30px}
